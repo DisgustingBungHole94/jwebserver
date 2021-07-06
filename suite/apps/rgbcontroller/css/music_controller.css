@@ -1,0 +1,21 @@
+.exit-link {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translate(0, -100%);
+    
+    padding: 15px;
+    
+    font-size: 18px;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    text-decoration: underline;
+    color: dimgray;
+    
+    background-color: white;
+    
+    border: none;
+}
+
+.player-button {
+    display: none;
+}

@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: table;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    
+    padding: 10px;
+    
+    border-bottom: 1px solid dimgray;
+}
+
+.video-thumbnail {
+    width: 213px;
+    height: 120px;
+    
+    padding-right: 20px;
+    
+    vertical-align: middle;
+}
+
+.video-title, .video-title:visited {
+    font-size: 24px;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    color: dimgray;
+    
+    text-decoration: none;
+}

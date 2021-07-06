@@ -1,0 +1,29 @@
+html, body {
+    background-color: black;
+}
+
+.season {
+    padding: 15px;
+}
+
+.season-title {
+    font-size: 36px;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    
+    color: white;
+}
+
+.item {
+    width: auto;
+    border-bottom: 1px solid white;
+    padding: 7px;
+}
+
+.item a, a:visited {
+    font-size: 18px;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    
+    color: white;
+    
+    text-decoration: none;
+}

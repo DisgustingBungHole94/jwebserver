@@ -1,0 +1,40 @@
+a, a:visited {
+    font-size: 30px;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    
+    color: dimgray;
+    
+    text-decoration: none;
+}
+
+.container {
+    box-shadow: 0 0 10px slategray;
+    border-radius: 10px;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: 250px;
+}
+
+.item {
+    border-bottom: 1px solid lightgray;
+    
+    padding: 15px;
+}
+
+.footer {
+    position: absolute;
+    top: 100%;
+    left: 1%;
+    transform: translate(0, -100%);
+}
+
+p {
+    font-size: 15px;
+    font-family: Avant Garde,Avantgarde,Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    
+    color: black;
+}
