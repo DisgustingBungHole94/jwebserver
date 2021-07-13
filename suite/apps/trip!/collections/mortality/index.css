@@ -1,0 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('img/background.jpg');
+    background-size: 300px 225px;
+}
+
+p {
+    opacity: 75%;
+    color: white;
+}
+
+a, a:visited {
+    font-size: 36px;
+    
+    color: aqua;
+    background-image: url('img/static.gif');
+}
+
+a:hover {
+    background-image: none;
+    background-color: red;
+}
+
+.image.one {
+    float: right;
+    
+    width: 800px;
+    height: 533px;
+}
+
+.image.two {
+    float: left;
+}
+
+.image.three {
+    float: left;
+}
+
+.image.four {
+    float: right;
+}

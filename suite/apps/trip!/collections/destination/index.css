@@ -1,0 +1,21 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('img/airplane.gif');
+}
+
+a, a:visited {
+    font-size: 54px;
+    color: white;
+    
+    background-image: url('img/link.gif');
+    background-position: center;
+    
+    float: right;
+}
+
+a:hover {
+    background-image: none;
+    background-color: red;
+}

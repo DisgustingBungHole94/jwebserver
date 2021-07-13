@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.background-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    width: 100%;
+    height: 100%;
+    
+    z-index: -1;
+    
+    background-image: url('img/angel.jpg');
+    background-size: 266px 240px;
+    
+    filter: invert();
+    
+}
+
+.home {
+    position: fixed;
+    top: 15%;
+    left: 15%;
+    
+    max-width: 250px;
+    
+    padding: 20px;
+    
+    border: 3px dotted red;
+    
+    background-color: black;
+}
+
+.home span {
+    color: white;
+}
+
+.home a, .home a:visited {
+    font-size: 24px;
+    color: aqua;
+    
+    background-image: url('img/portal.gif');
+    background-position: center;
+}
+
+.home p {
+    font-size: 20px;
+    color: white;
+    
+    background-image: url('img/info.gif');
+}

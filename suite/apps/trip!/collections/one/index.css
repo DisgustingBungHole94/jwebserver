@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    
+    background-image: url('img/one.gif');
+}
+
+.jfk {
+    width: 300px;
+    height: 300px;
+    
+    filter: brightness(2);
+}
+
+.jfk.one {
+    position: fixed;
+    top: 12%;
+    left: 7%;
+}
+
+.jfk.two {
+    position: fixed;
+    top: 75%;
+    left: 66%;
+}
+
+.text {
+    font-size: 12px;
+    
+    color: white;
+    background-color: plum;
+}
+
+.link, .link:visited {
+    font-size: 20px;
+    color: aqua;
+    
+    background-image: url('img/continue.gif');
+}
+
+.link:hover {
+    background-image: none;
+    background-color: red;
+}
+
+.link.one {
+    position: fixed;
+    top: 33%;
+    left: 15%;
+}
+
+.link.two {
+    position: fixed;
+    top: 50%;
+    left: 60%;
+}
