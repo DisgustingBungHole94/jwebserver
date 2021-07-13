@@ -1,6 +1,6 @@
 <?php
     function tmdb_api_request($request, &$result, &$error) {
-        $tmdb_api_key = "de796dd7e441f98f2cb90d2cebbbc587";
+        require 'key.php';
         
         if (strpos($request, '?') !== false) {
             $tmdb_api_request = "https://api.themoviedb.org/3/". $request . '&api_key=' . $tmdb_api_key;

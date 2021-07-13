@@ -1,10 +1,7 @@
 <?php
-    $vs_api_key = 'hipPeR5Us20i3wCE';
-    $vs_secret_key = '1w20vnymsxdhkeacnas1b2leefb42i';
-
     function generate_ticket($id, $season, &$ticket, &$error) {
-        global $vs_api_key, $vs_secret_key;
-        
+        require 'key.php';
+		
         if ($_SERVER['REMOTE_ADDR'] == '::1') {
             $ip_api_result = @file_get_contents('https://api6.ipify.org/?format=json');
             $ip_api_json = json_decode($ip_api_result);

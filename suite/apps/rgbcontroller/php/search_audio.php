@@ -8,6 +8,8 @@
                 <span class="video-title">Please select a video. It might take a minute for it to download.</span>
             </div>
             <?php
+				require 'key.php';
+				
                 session_start();
 
                 if (!isset($_POST['q'])) {
@@ -16,7 +18,7 @@
                     exit();
                 }
 
-                $requestUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet&order=viewCount&q=' . urlencode($_POST['q']) .'&type=video&videoDefinition=high&key=AIzaSyAo4PuxV2K0mdlyBgRQKinX55r4jCPHDro';
+                $requestUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet&order=viewCount&q=' . urlencode($_POST['q']) .'&type=video&videoDefinition=high&key=' . $yt_key;
                 $request = file_get_contents($requestUrl);
 
                 if (!$request) {
