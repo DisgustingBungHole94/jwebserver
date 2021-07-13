@@ -88,7 +88,7 @@
                 </div>
             </div>
             <div class="box footer">
-                <span class="text">alpha-1.0.0 | prerelease</span>
+                <span class="text">v2.0.0 | <a href="https://github.com/DisgustingBungHole94/jahbot">GitHub</a></span>
             </div>
         </div>
     </body>

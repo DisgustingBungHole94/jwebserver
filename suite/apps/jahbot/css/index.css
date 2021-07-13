@@ -112,3 +112,7 @@ html, body {
     color: white;
     background-color: black;
 }
+
+.box .footer a, .box.footer a:visited {
+    color: white
+}
