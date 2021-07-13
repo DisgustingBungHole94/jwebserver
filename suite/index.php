@@ -5,13 +5,16 @@
     <body>
         <div class="container">
             <div class="item">
-                <a href="apps/piratemedia/">piratemedia.</a>
+                <a href="apps/trip!/">trip!</a>
             </div>
             <div class="item">
                 <a href="apps/rgbcontroller/">rgbcontroller.</a>
             </div>
             <div class="item">
                 <a href="apps/jahbot/">jahbot.</a>
+            </div>
+            <div class="item">
+                <a href="apps/piratemedia/">piratemedia.</a>
             </div>
         </div>
         <div class="footer">

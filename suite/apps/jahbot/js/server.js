@@ -1,4 +1,4 @@
-const SERVER_ADDRESS = 'http://192.168.1.74:8008';
+const SERVER_ADDRESS = 'http://76.236.31.36:8008';
 
 async function serverRequest(module, method, data) {
     return new Promise((resolve, reject) => {
